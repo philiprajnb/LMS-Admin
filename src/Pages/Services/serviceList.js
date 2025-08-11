@@ -6,9 +6,9 @@ const headers = {
     authorization: localStorage.getItem("token"),
   },
 };
-async function uploadLeads(props) {
+async function createLeads(props) {
   const uploaded = await axios.post(
-    `${config.baseUrl}/stateData`,
+    `${config.baseUrl}/leads`,
     props,
     headers
   );
@@ -417,7 +417,7 @@ async function getRejectedAuditLeads() {
   return dataObj;
 }
 export {
-  uploadLeads,
+  createLeads,
   getTotalLeads,
   getNewLeads,
   getDistributedLeads,

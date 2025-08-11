@@ -3,7 +3,7 @@ import styles from "./InfoTab.module.css"
 import { useHistory } from "react-router-dom";
 import Card from '../Cards/Card';
 import FileUpload from "../FileUpload/FileUpload"
-import {uploadLeads, distributeLeads,} from "../../Services/serviceList";
+import {createLeads, distributeLeads,} from "../../Services/serviceList";
 import {workflowMaster} from "../../Services/workflowMaster"
 import {toast } from 'react-toastify';
 
@@ -62,7 +62,7 @@ const InfoTab = (props) => {
               obj.processData['Mobile No'] = stringifyMobile;
               obj.processData['Zip Code'] = stringifyZipCode;
               try{
-                const result = await uploadLeads(obj);
+                const result = await createLeads(obj);
                   toast.success(result.message,{
                       className:`${styles.toasted}`
                   })
