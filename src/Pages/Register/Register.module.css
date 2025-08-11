@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/random') no-repeat cover !important;
+}
+.errorMessage {
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    padding-left: 0.25rem;
+}

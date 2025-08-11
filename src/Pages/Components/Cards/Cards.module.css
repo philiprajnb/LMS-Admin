@@ -1,0 +1,29 @@
+.flipper{
+    color: #593196 !important;
+    background-color: '#fff' !important;
+    /* transform-style: preserve-3d; */
+    
+}
+.flipper:hover{
+    color: #fff !important;
+    background-image: linear-gradient(to right, #b18cdb, #6f70d4) !important;
+    /* transform-style: preserve-3d; */
+    
+}
+
+.isFlipped{
+        background-image: linear-gradient(to right, #b18cdb, #6f70d4) !important;
+        color: white !important;
+        /* transform: rotateY(180deg); */
+    }
+    .isFlipped:hover{
+        background-image: linear-gradient(to right, #6f70d4, #b18cdb) !important;
+        color: white !important;
+        /* transform: rotateY(180deg); */
+    }
+   
+    /* .isFlipped> .card-body{
+        background-image: linear-gradient(to right, #b18cdb, #6f70d4) !important;
+        color: white !important;
+        transform: rotateY(180deg);
+    } */

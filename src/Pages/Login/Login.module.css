@@ -1,0 +1,33 @@
+.container {
+    height: 100vh;
+    background-image: url("../../assets/images/login.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  .theLogo{
+    background: url('../../assets/images/headerlogo.png') no-repeat center;
+    background-size: contain;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .loginFormContainer {
+    width: 30rem;
+    background: #fff;
+    margin-right: 50px;
+  }
+  
+  .loginFormLegend {
+    width: 14rem;
+    background: #dee2e6;
+  }
+  
+  .errorMessage {
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    padding-left: 0.25rem;
+    color: #dc3545;
+  }

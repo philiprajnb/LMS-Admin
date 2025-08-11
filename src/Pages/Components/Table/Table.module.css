@@ -1,0 +1,11 @@
+.flipper{
+    color: #000 !important;
+    background-image: linear-gradient(to right, #6f70d4, #b18cdb) !important;
+    
+}
+.flipper:hover{
+    color: #fff !important;
+    background-image: linear-gradient(to right, #b18cdb, #6f70d4) !important;
+    /* transform-style: preserve-3d; */
+ 
+}

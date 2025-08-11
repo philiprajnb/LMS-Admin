@@ -1,0 +1,11 @@
+.wrapper{
+    height: 100% !important;
+}
+
+.infobg{
+    background-image: linear-gradient(to bottom, #5f3390, #302f8a);
+}
+
+.toasted{
+    margin-top:'60px'
+}
